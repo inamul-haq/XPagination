@@ -14,9 +14,10 @@ const endIndex = startIndex + 10;
         setEntries(response.data);
         console.log(response.data);
       }
-      catch(e){
-        console.log('failed to fetch data')
-      }
+      catch(error){
+        console.log('Failed to fetch data:', error);
+        alert('Failed to fetch data. Please try again later.');
+      }     
       
     }
 fetchData();
