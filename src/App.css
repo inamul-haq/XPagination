@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+table {
+  margin: 2%;
+  width: 95%;
+  border-collapse: collapse; /* Collapse table borders to avoid double lines */
+}
+
+.tableHeadItems th{
+  background-color: rgb(23, 150, 108);
+  color: white;
+  padding: 20px;
+  text-align: start;
+}
+
+.tableItems {
+  padding: 20px;
+  margin: 10px 0 10px 0;
+  border-bottom: 1px solid #ccc; /* Add border line at the bottom of each row */
+}
+
+.tableItems td{
+  padding: 20px; /* Add padding to cells for better spacing */
+  text-align: start; /* Center-align text in cells */
+  vertical-align: middle; /* Vertically align text in cells */
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons{
+  padding: 10px 15px;
+  margin: 20px;
+  background-color: rgb(23, 150, 108);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  
+}
+
+.pageNumber{
+  padding: 15px;
+  margin: 10px;
+  background-color: rgb(23, 150, 108);
+  color: white;
+  border-radius: 10px;
+}
